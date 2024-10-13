@@ -1,0 +1,20 @@
+@media screen and (max-width: 580px) {
+  body {
+    padding: 0;
+  }
+  container {
+    max-width: none;
+    padding: 0;
+  }
+  .main {
+    padding: 0 2.5rem 2.5rem 2.5rem;
+  }
+  header .img-bg {
+    background-size: cover;
+    border-radius: 0;
+  }
+
+  .attribution {
+    margin-bottom: 2rem;
+  }
+}
