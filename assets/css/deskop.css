@@ -143,7 +143,11 @@ td {
 .nutrition td > b {
   color: var(--Brown800);
 }
-
+.ingredients,
+.instructions {
+  padding-bottom: var(--Gap);
+  border-bottom: 1px solid var(--Stone100);
+}
 .attribution {
   font-size: 1.6rem;
   font-family: var(--FParagraph);
